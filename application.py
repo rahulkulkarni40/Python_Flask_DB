@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from azure.cosmosdb.table import TableService
 
-table_service = TableService(account_name='cloudshell703046314', account_key='fTJlnFKqcwkuu4BCIJiOnIqGEB3aNBkY/yaZ55tm7UWKtzuTv5/pdHgzL2HunOGu8IuMHEEV92nMY0wi2ZANGw==')
+table_service = TableService(account_name='cloudshell1059396988', account_key='IDwKmixtl9+Dq+A35ZWd6UZP3zx2fctVid+SLTJ3ZRVOHYx8t1JQUhKNoVjpEscUeZOcFMoHzzABz2p+joMEng==')
 #task = {'PartitionKey': 'first', 'RowKey': '002',
 #        'ID': '0002', 'address': 'India','stock':40}
 #table_service.update_entity('customer', task)
